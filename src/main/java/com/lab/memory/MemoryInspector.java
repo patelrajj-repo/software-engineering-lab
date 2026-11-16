@@ -1,4 +1,4 @@
-package com.lab.memory
+package com.lab.memory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class MemoryInspector {
 	
 	public static void main(String[] args) {
 		int initialAmount = 500;
-		Account primaryAccont = new Account("ACC-1001", 1500.00)
+		Account primaryAccont = new Account("ACC-1001", 1500.00);
 		List<Account> logList = new ArrayList<>();
 
 		processTransaction(primaryAccount, initialAmount, logList);
